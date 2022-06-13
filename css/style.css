@@ -91,7 +91,7 @@ nav a {
     background-color: var(--firstcolor);
 }
 main {
-    height: 100%;
+    height: 135rem;
     width: 100vw;
     padding: 20px 0px;
     display: flex;
@@ -118,7 +118,7 @@ main h1 {
     
 }
 .curiosities-state{
-    height: 100%;
+    height: 100rem; 
     width: 100vw;
     
     display: flex;
@@ -131,7 +131,7 @@ main h1 {
 
 }
 .curiosity {
-    height: 55vh;
+    height: 30rem;
     width: 200px;
 
     display: flex;
@@ -299,7 +299,7 @@ footer a {
 
     header{
     
-        height: 10%;
+        height: 30vh;
         width: 100vw;
         padding: 15px 20px;
 
@@ -313,14 +313,17 @@ footer a {
         flex-direction: row;
         column-gap: 10px;
     }
-   
     
+    main {
+        height: 110rem;
+    }
+    .curiosities-state{
+        height: 35rem;
+    }
+
     .background {
         display: block; 
     
-    }
-    .curiosity {
-        height: 75vh;
     }
     .nav-footer {
    
