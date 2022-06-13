@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --firstcolor: #ffe6e6;
+    --secondcolor: #990000;
+    --thirdcolor:  #e60000;
+    --fourthcolor: blue;
+    --fifthcolor: black;
+
+    
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Averia Serif Libre';
+   
+}
+
+
+header{
+    width: 100vw;
+    height: 60vh;
+
+    
+    padding: 15px 15px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: var(--thirdcolor);
+    
+   
+    
+}
+
+.logo{
+    width: 175px;
+    height: 150px;
+    
+
+    background-image: url("../img/sao-paulo-gad219c4d4_640.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: var(--firstcolor);
+    border-radius: 10px;
+    font-family: 'Covered By Your Grace';
+    font-size: 4.5rem;
+    text-align: center;
+    color: var(--fourthcolor);
+}
+.logo p {
+    padding-top: 15px;
+    font-size: 1rem;
+    font-family: 'Kaushan Script';
+    color: var(--secondcolor);
+}
+.logo-one {
+    color: black;
+}
+.logo-two {
+    color: var(--secondcolor);
+}
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+nav a {
+    height: 35px;
+    width: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--secondcolor);
+    background-color: var(--firstcolor);
+}
+main {
+    height: 100%;
+    width: 100vw;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    background-color: var(--firstcolor
+    );
+    color: var(--secondcolor);
+    box-shadow: inset 0 0 1em black;
+}
+.background {
+
+    display: none;
+    width: 100vw;
+    
+}
+.background img {
+    width: 100%;
+    box-shadow: 0 0 1em black;
+}
+main h1 {
+    text-align: center;
+    padding: 20px;
+    
+}
+.curiosities-state{
+    height: 100%;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 70px;
+
+}
+.curiosity {
+    height: 55vh;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    border-style:solid;
+    border-width: 2px;
+    border-color: var(--thirdcolor);
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+
+   
+}
+
+.image-rap {
+    background-image: url(../img/Rap_concert.png);
+    background-repeat: no-repeat;
+
+
+}
+.image-graffiti {
+    background-image: url(../img/Graffiti.png);
+    background-repeat: no-repeat;
+
+
+}
+.image-break {
+    background-image: url(../img/Break.png);
+    background-repeat: no-repeat;
+
+}
+.curiosity-text {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+    text-align: center;
+    background: var(--firstcolor);
+    border-radius: 15px;
+    box-shadow: 0 0 1em black;
+}
+
+.curiosity-text a {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondcolor);
+    border-radius: 10px;
+
+    color: var(--fifthcolor);
+    box-shadow: 0 0 1em black;
+    text-decoration: none;
+}
+.curiosity-text a:hover {
+    background-color: var(--thirdcolor);
+    box-shadow: 0 0 1em white;
+    color: white;
+}
+
+
+.videos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+
+    
+}
+
+iframe {
+    box-shadow: 0 0 1em black;
+}
+
+footer {
+    height: 100%;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap: 20px;
+
+    background-color: var(--thirdcolor);
+    box-shadow: 0 0 1em black;
+}
+.nav-footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.footer-list li {
+    list-style:none;
+    padding: 10px 0px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+.logo-footer{
+    width: 110px;
+    height: 100px;
+    
+
+    background-image: url("../img/sao-paulo-gad219c4d4_640.png");
+    background-repeat: no-repeat;
+    background-size:7rem;
+    background-color: var(--firstcolor);
+    border-radius: 10px;
+    font-family: 'Covered By Your Grace';
+    font-size: 3rem;
+    text-align: center;
+    color: var(--fourthcolor);
+}
+.logo-footer p {
+    padding-top: 10px;
+    font-size: .6rem;
+    font-family: 'Kaushan Script';
+    color: var(--secondcolor);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+.contacts-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.distribuction {
+    width: 100vw;
+
+    text-align: center;
+    font-size: .7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    
+    
+    background-color: black;
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+@media (min-width: 768px){
+
+    header{
+    
+        height: 10%;
+        width: 100vw;
+        padding: 15px 20px;
+
+    
+        flex-direction:row;
+        justify-content:space-between;
+
+    }
+    nav {
+        
+        flex-direction: row;
+        column-gap: 10px;
+    }
+   
+    
+    .background {
+        display: block; 
+    
+    }
+    .curiosity {
+        height: 75vh;
+    }
+    .nav-footer {
+   
+        flex-direction: row;
+        
+    }
+
+    .contacts-icon{
+    
+        flex-direction: row;
+    }
+    iframe {
+        height: 315px;
+        width: 560px;
+    }
+    body h1 {
+    font-size: 4rem;
+    }
+    body h2 {
+        font-size: 2rem;
+    }
+    .footer-list li {
+        font-size: 1.5rem;
+    }
+
+}
